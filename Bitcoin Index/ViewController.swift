@@ -79,7 +79,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     }
     
     func updateUIWithBitcoinPrice(price : String, symbol : String ) {
-        bitcoinPriceLabel.text = price + symbol
+        bitcoinPriceLabel.text = price + " " + symbol
     }
 
 
